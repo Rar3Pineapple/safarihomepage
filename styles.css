@@ -1,0 +1,32 @@
+* {
+    color: #C7F0AE;
+    font-family: 'Alice', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    line-height: -1;
+    display: grid;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
+span {
+    font-size: 100px;
+}
+
+html body {
+    background-image: url(/images/greenhills.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
