@@ -1,2 +1,2 @@
 # safarihomepage
-A lightweight starting page for browsing
+Starting page featuring a clock
