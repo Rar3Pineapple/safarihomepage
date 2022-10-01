@@ -16,7 +16,6 @@ class DigitalClock {
         const minuteFormatted = parts.minutes.toString().padStart(2, "0")
         const timeFormatted = `${parts.hour}:${minuteFormatted}`;
         this.element.querySelector(".time").textContent = timeFormatted
-        this.element.querySelector(".week").textContent = daylist[parts.day - 1]
     }
 
     getTimeParts() {
@@ -24,14 +23,11 @@ class DigitalClock {
         return {
             hour:  now.getHours(),
             minutes: now.getMinutes(),
-            day: now.getDay(),
-            ampm: now.get
         }
     }
 }
 
 const clockElement = document.querySelector(".text")
 const clockObject = new DigitalClock(clockElement);
-const daylist = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 clockObject.start()
