@@ -35,6 +35,6 @@ html body {
 @keyframes fadein {
 from {
 background: #393A3A;
-} to
+} to {
 background: none;
 }}
