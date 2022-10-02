@@ -14,7 +14,7 @@
     transform: translate(-50%, -50%);
     align-items: center;
     justify-content: center;
-    animation: fadein 1s;
+    animation: fadein 1s linear;
 }
 span {
     font-size: 100px;
