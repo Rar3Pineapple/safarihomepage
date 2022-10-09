@@ -22,7 +22,7 @@ span {
 
 html body {
     background: #393A3A;
-    background-image: url(/safarihomepage/images/greenhills.jpeg);
+    background-image: url(/safarihomepage/root/images/greenhills.jpeg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
